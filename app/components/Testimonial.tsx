@@ -9,7 +9,7 @@ const Testimonial = () => {
             <h2 className="text-5xl font-bold text-emerald-500">
               Testimonials
             </h2>
-            <p className="text-sm lg:text-base dark:text-gray-400">
+            <p className="text-xs lg:text-base dark:text-gray-400">
               Discover what our satisfied customers have to say by reading their
               trusted reviews, providing genuine insights into their experiences
               with our products/services.
@@ -19,7 +19,7 @@ const Testimonial = () => {
             <div className="grid gap-4 md:grid-cols-2">
               <div className="grid content-center gap-4">
                 <div className="p-6 rounded shadow-md bg-neutral-900">
-                  <p className="text-sm lg:text-base">
+                  <p className="text-xs lg:text-base">
                     Pretty darn impressed with Greptile so far. Loaded up a
                     Github repo, and asked questions about a repo, received
                     quick, intelligent answers in plain English. It was even
@@ -41,7 +41,7 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <div className="p-6 rounded shadow-md bg-neutral-900">
-                  <p className="text-sm lg:text-base">
+                  <p className="text-xs lg:text-base">
                     The team is kick ass. If you use GPT while writing code, you
                     should try Greptile. It's much more tailored to that use
                     case than regular GPT. I've used the product to write tests
@@ -64,7 +64,7 @@ const Testimonial = () => {
               </div>
               <div className="grid content-center gap-4">
                 <div className="p-6 rounded shadow-md bg-neutral-900">
-                  <p className="text-sm lg:text-base">
+                  <p className="text-xs lg:text-base">
                     Greptile is 100x better than ChatGPT and 10x better than
                     Cursor at answering questions about the entire codebase. I
                     have no idea how they do it.

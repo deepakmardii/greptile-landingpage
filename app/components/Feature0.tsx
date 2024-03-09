@@ -113,13 +113,15 @@ const Feature0 = () => {
 
       <section className="bg-black text-white font-mono">
         <div className="container mx-auto p-4 space-y-2 text-center py-20">
-          <h2 className="text-4xl lg:text-7xl font-bold">Goodbye, docs 👋</h2>
+          <h2 className="text-4xl lg:text-7xl font-bold text-emerald-500">
+            Goodbye, docs 👋
+          </h2>
           <p className="lg:px-32 text-base lg:text-xl dark:text-gray-400 font-semibold text-neutral-300">
             Greptile can answer hard questions on complex codebases better than
             any other tool. Where we're going, we don't need docs.
           </p>
         </div>
-        <div className="mx-auto flex flex-wrap gap-10 justify-center px-2">
+        <div className="mx-auto flex flex-wrap gap-10 justify-center px-10 lg:px-2">
           <button
             ref={divRef}
             onMouseMove={handleMouseMove}
@@ -138,10 +140,10 @@ const Feature0 = () => {
             />
             <div className="flex flex-col items-center p-4">
               <IoIosPeople className="h-20 w-20 lg:h-36 lg:w-36" />
-              <h3 className="my-3 text-3xl font-semibold">
+              <h3 className="my-3 text-xl lg:text-3xl font-semibold">
                 Onboard Developers
               </h3>
-              <div className="space-y-1 leadi text-white font-semibold">
+              <div className="space-y-1 leadi text-white text-xs lg:text-base lg:font-semibold">
                 <p>
                   Ramp up new engineers to your <br /> codebase 10x faster!
                 </p>
@@ -168,8 +170,10 @@ const Feature0 = () => {
 
             <div className="flex flex-col items-center p-4">
               <IoBug className="h-20 w-20 lg:h-36 lg:w-36" />
-              <h3 className="my-3 text-3xl font-semibold">Debug 10X Faster</h3>
-              <div className="space-y-1 leadi text-white font-semibold">
+              <h3 className="my-3 text-xl lg:text-3xl font-semibold">
+                Debug 10X Faster
+              </h3>
+              <div className="space-y-1 leadi text-white text-xs lg:text-base lg:font-semibold">
                 <p>
                   Paste-in an error message and let <br /> Greptile diagnose it!
                 </p>
@@ -194,8 +198,10 @@ const Feature0 = () => {
             />
             <div className="flex flex-col items-center p-4">
               <IoDocumentTextOutline className="h-20 w-20 lg:h-36 lg:w-36" />
-              <h3 className="my-3 text-3xl font-semibold">Replace your docs</h3>
-              <div className="space-y-1 leadi text-white font-semibold">
+              <h3 className="my-3 text-xl lg:text-3xl font-semibold">
+                Replace your docs
+              </h3>
+              <div className="space-y-1 leadi text-white text-xs lg:text-base lg:font-semibold">
                 <p>
                   Developers don't like writing <br /> docs. Now, they don't
                   have to!
@@ -222,8 +228,10 @@ const Feature0 = () => {
             />
             <div className="flex flex-col items-center p-4">
               <BsFillSkipForwardCircleFill className="h-20 w-20 lg:h-36 lg:w-36" />
-              <h3 className="my-3 text-3xl font-semibold">Crush Tech Debt</h3>
-              <div className="space-y-1 leadi text-white font-semibold">
+              <h3 className="my-3 text-xl lg:text-3xl font-semibold">
+                Crush Tech Debt
+              </h3>
+              <div className="space-y-1 leadi text-white text-xs lg:text-base lg:font-semibold">
                 <p>
                   Parse legacy code with ease, so <br /> you can focus on
                   shipping.

@@ -2,7 +2,8 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section className="bg-black text-white">
+    <section className="bg-black text-white font-mono font-bold">
+      <div className="text-center text-6xl text-emerald-500">Blog</div>
       <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
         <a
           rel="noopener noreferrer"
@@ -182,7 +183,7 @@ const Blog = () => {
         <div className="flex justify-center">
           <button
             type="button"
-            className="px-6 py-3 text-sm rounded-md hover:underline dark:bg-gray-900 dark:text-gray-400"
+            className="px-8 py-3 m-2 text-lg font-semibold rounded bg-emerald-700 text-white"
           >
             Load more posts...
           </button>
