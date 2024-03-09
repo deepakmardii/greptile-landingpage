@@ -13,8 +13,8 @@ const page = () => {
       <Banner />
       {/* <img src='/greptile.webp' alt="logo" /> */}
       <Stats />
-      <Feature0 />
       <Feature />
+      <Feature0 />
       <Testimonial />
       <Blog />
     </div>

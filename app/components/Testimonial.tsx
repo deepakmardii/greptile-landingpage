@@ -2,111 +2,110 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <section className="bg-black text-white">
+    <section className="bg-black text-white font-mono">
       <div className="container px-6 py-12 mx-auto">
         <div className="grid items-center gap-4 xl:grid-cols-5">
           <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-            <h2 className="text-4xl font-bold">
-              Duo assum utroque appetere an
+            <h2 className="text-5xl font-bold text-emerald-500">
+              Testimonials
             </h2>
             <p className="dark:text-gray-400">
-              Pri ex magna scaevola moderatius. Nullam accommodare no vix, est
-              ei diceret alienum, et sit cetero malorum. Et sea iudico
-              consequat, est sanctus adipisci ex.
+              Discover what our satisfied customers have to say by reading their
+              trusted reviews, providing genuine insights into their experiences
+              with our products/services.
             </p>
           </div>
-          <div className="p-6 xl:col-span-3">
+          <div className="p-6 xl:col-span-3 text-sm">
             <div className="grid gap-4 md:grid-cols-2">
               <div className="grid content-center gap-4">
-                <div className="p-6 rounded shadow-md bg-gray-500">
+                <div className="p-6 rounded shadow-md bg-neutral-900">
                   <p>
-                    An audire commodo habemus cum. Ne sed corrumpit repudiandae.
-                    Tota aliquip democritum pro in, nec democritum intellegam
-                    ne. Propriae volutpat dissentiet ea sit, nec at lorem inani
-                    tritani, an ius populo perfecto vituperatoribus. Eu cum case
-                    modus salutandi, ut eum vocent sensibus reprehendunt.
+                    Pretty darn impressed with Greptile so far. Loaded up a
+                    Github repo, and asked questions about a repo, received
+                    quick, intelligent answers in plain English. It was even
+                    able to create a Mermaid diagram to help me visualize the
+                    code. sibus reprehendunt.
                   </p>
                   <div className="flex items-center mt-4 space-x-4">
                     <img
-                      src="https://source.unsplash.com/50x50/?portrait?1"
+                      src="https://source.unsplash.com/50x50/?portrait?27"
                       alt=""
-                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-neutral-900"
                     />
                     <div>
-                      <p className="text-lg font-semibold">Leroy Jenkins</p>
+                      <p className="text-lg font-semibold">Sebastian Gallese</p>
                       <p className="text-sm dark:text-gray-400">
-                        CTO of Company Co.
+                        Senior Engineer, Included Health
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="p-6 rounded shadow-md bg-gray-500">
+                <div className="p-6 rounded shadow-md bg-neutral-900">
                   <p>
-                    Sit wisi sapientem ut, pri civibus temporibus voluptatibus
-                    et, ius cu hinc fabulas. Nam meliore minimum et, regione
-                    convenire cum id. Ex pro eros mucius consectetuer, pro magna
-                    nulla nonumy ne, eam putent iudicabit consulatu cu.
+                    The team is kick ass. If you use GPT while writing code, you
+                    should try Greptile. It's much more tailored to that use
+                    case than regular GPT. I've used the product to write tests
+                    and to debug how our code interacts with other repos.
                   </p>
                   <div className="flex items-center mt-4 space-x-4">
                     <img
                       src="https://source.unsplash.com/50x50/?portrait?2"
                       alt=""
-                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-neutral-900"
                     />
                     <div>
-                      <p className="text-lg font-semibold">Leroy Jenkins</p>
+                      <p className="text-lg font-semibold">Jack Chapman</p>
                       <p className="text-sm dark:text-gray-400">
-                        CTO of Company Co.
+                        Cardinal Gray, ex-Citadel
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="grid content-center gap-4">
-                <div className="p-6 rounded shadow-md bg-gray-500">
+                <div className="p-6 rounded shadow-md bg-neutral-900">
                   <p>
-                    Putant omnium elaboraret per ut. Id dicta tritani nominavi
-                    quo, mea id justo errem elaboraret. Agam mollis scripserit
-                    ea his, ut nec postea verear persecuti. Ea noster senserit
-                    eam, ferri omittantur ei nec. Id mel solet libris
-                    efficiantur, commune explicari et eos. Case movet ad est,
-                    sed tota vocent appetere ea.
+                    Greptile is 100x better than ChatGPT and 10x better than
+                    Cursor at answering questions about the entire codebase. I
+                    have no idea how they do it.
                   </p>
                   <div className="flex items-center mt-4 space-x-4">
                     <img
                       src="https://source.unsplash.com/50x50/?portrait?3"
                       alt=""
-                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-neutral-900"
                     />
                     <div>
-                      <p className="text-lg font-semibold">Leroy Jenkins</p>
+                      <p className="text-lg font-semibold">Rahul Behal</p>
                       <p className="text-sm dark:text-gray-400">
-                        CTO of Company Co.
+                        CTO, AgentHub, ex-Amazon
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="p-6 rounded shadow-md bg-gray-500">
+                <div className="p-6 rounded shadow-md bg-neutral-900">
                   <p>
-                    Te omnes virtute volutpat sed. Ei esse eros interesset vel,
-                    ei populo denique ocurreret vix, eu cum pertinax mandamus
-                    vituperatoribus. Solum nihil luptatum per ex, ei amet
-                    viderer eos. Ea illum labitur mnesarchum pro. Eius meis
-                    salutandi ei nam, alterum expetenda et nec. Expetenda
-                    intellegat at eum, per mazim sanctus honestatis ad. Ei
-                    noluisse invenire vix. Te ancillae patrioque qui, probo
-                    bonorum vivendum ex vim.
+                    I am extremely impressed and honestly quite surprised. I
+                    have GPT4, the new Gemini Advanced, and Greptile in 3
+                    different tabs (I'm also using Copilot both in Bing and
+                    GitHub Copilot chat in vsCode, but they're pretty terrible).
+                    I'm writing my prompt and pasting it into all 3 AIs. ALL but
+                    ONE time, Greptile has given me BY FAR the best responses.
+                    The code is often complete without me begging. The context
+                    is far better since it has access to my repo. The additional
+                    supporting articles and resources offered along the response
+                    were really helpful.
                   </p>
                   <div className="flex items-center mt-4 space-x-4">
                     <img
                       src="https://source.unsplash.com/50x50/?portrait?4"
                       alt=""
-                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                      className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-neutral-900"
                     />
                     <div>
-                      <p className="text-lg font-semibold">Leroy Jenkins</p>
+                      <p className="text-lg font-semibold">Paul Suarez</p>
                       <p className="text-sm dark:text-gray-400">
-                        CTO of Company Co.
+                        Senior Software Engineer, Liberty Mutual
                       </p>
                     </div>
                   </div>

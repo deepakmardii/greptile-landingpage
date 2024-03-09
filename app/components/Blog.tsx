@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section className="dark:bg-gray-800 dark:text-gray-100">
+    <section className="bg-black text-white">
       <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
         <a
           rel="noopener noreferrer"

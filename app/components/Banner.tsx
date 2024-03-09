@@ -2,33 +2,35 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="bg-black text-white">
-      <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
-        <div className="mx-auto max-w-3xl text-center">
-          <h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
-            Understand User Flow.
-            <span className="sm:block"> Increase Conversion. </span>
+    <section>
+      <div className="bg-black text-white font-mono">
+        <div className="container flex flex-col items-center px-4 py-16 mx-auto text-center md:py-32 md:px-10 lg:px-32 dark:text-gray-900">
+          <h1 className="bg-gradient-to-t from-[#c7d2fe] to-[#00cc55] bg-clip-text text-5xl font-bold sm:text-7xl xl:max-w-3xl text-transparent">
+            Ship more features, faster.
           </h1>
-
-          <p className="mx-auto mt-4 max-w-xl sm:text-xl/relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            illo tenetur fuga ducimus numquam ea!
+          <p className="mt-6 mb-8 text-lg sm:mb-10 xl:max-w-3xl dark:text-gray-900">
+            Spend less time wrangling the codebase and more time shipping.
+            Greptile answers your hardest questions about any codebase in plain
+            English.
           </p>
-
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
-              className="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-              href="#"
+          <img
+            src="greptile.webp"
+            alt="asssd"
+            className="w-28 mx-auto rounded-lg shadow-md dark:bg-gray-500 h-28 mb-10"
+          />
+          <div className="flex flex-wrap justify-center">
+            <button
+              type="button"
+              className="px-8 py-3 m-2 text-lg font-semibold rounded bg-emerald-700 text-white"
             >
-              Get Started
-            </a>
-
-            <a
-              className="block w-full rounded border border-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
-              href="#"
+              Get started
+            </button>
+            <button
+              type="button"
+              className="px-8 py-3 m-2 text-lg border rounded border-emerald-700"
             >
-              Learn More
-            </a>
+              Learn more
+            </button>
           </div>
         </div>
       </div>

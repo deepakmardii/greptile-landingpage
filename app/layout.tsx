@@ -29,7 +29,7 @@ const headers = (
     <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
       <div className="flex h-16 items-center justify-between">
         <div className="flex-1 md:flex md:items-center md:gap-12">
-          <a className="block text-teal-600" href="#">
+          <a className="block text-emerald-600" href="#">
             <span className="sr-only">Home</span>
             <svg
               className="h-8"
@@ -113,7 +113,7 @@ const headers = (
           <div className="flex items-center gap-4">
             <div className="sm:flex sm:gap-4">
               <a
-                className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
+                className="rounded-md bg-emerald-600 px-5 py-2.5 text-sm font-medium text-white shadow"
                 href="#"
               >
                 Login
@@ -121,7 +121,7 @@ const headers = (
 
               <div className="hidden sm:flex">
                 <a
-                  className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
+                  className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-emerald-600"
                   href="#"
                 >
                   Register
@@ -154,7 +154,7 @@ const headers = (
   </header>
 );
 const footer = (
-  <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100">
+  <footer className="px-4 divide-y bg-black text-white">
     <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
       <div className="lg:w-1/3">
         <a
