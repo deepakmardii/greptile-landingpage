@@ -114,12 +114,12 @@ const Feature0 = () => {
       <section className="bg-black text-white font-mono">
         <div className="container mx-auto p-4 space-y-2 text-center py-20">
           <h2 className="text-4xl lg:text-7xl font-bold">Goodbye, docs 👋</h2>
-          <p className="px-32 text-base lg:text-xl dark:text-gray-400 font-semibold text-neutral-300">
+          <p className="lg:px-32 text-base lg:text-xl dark:text-gray-400 font-semibold text-neutral-300">
             Greptile can answer hard questions on complex codebases better than
             any other tool. Where we're going, we don't need docs.
           </p>
         </div>
-        <div className="mx-auto flex flex-wrap gap-10 justify-center">
+        <div className="mx-auto flex flex-wrap gap-10 justify-center px-2">
           <button
             ref={divRef}
             onMouseMove={handleMouseMove}

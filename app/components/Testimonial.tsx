@@ -9,7 +9,7 @@ const Testimonial = () => {
             <h2 className="text-5xl font-bold text-emerald-500">
               Testimonials
             </h2>
-            <p className="dark:text-gray-400">
+            <p className="text-sm lg:text-base dark:text-gray-400">
               Discover what our satisfied customers have to say by reading their
               trusted reviews, providing genuine insights into their experiences
               with our products/services.
@@ -19,7 +19,7 @@ const Testimonial = () => {
             <div className="grid gap-4 md:grid-cols-2">
               <div className="grid content-center gap-4">
                 <div className="p-6 rounded shadow-md bg-neutral-900">
-                  <p>
+                  <p className="text-sm lg:text-base">
                     Pretty darn impressed with Greptile so far. Loaded up a
                     Github repo, and asked questions about a repo, received
                     quick, intelligent answers in plain English. It was even
@@ -33,7 +33,7 @@ const Testimonial = () => {
                       className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-neutral-900"
                     />
                     <div>
-                      <p className="text-lg font-semibold">Sebastian Gallese</p>
+                      <p className="text-lg font-bold">Sebastian Gallese</p>
                       <p className="text-sm dark:text-gray-400">
                         Senior Engineer, Included Health
                       </p>
@@ -41,7 +41,7 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <div className="p-6 rounded shadow-md bg-neutral-900">
-                  <p>
+                  <p className="text-sm lg:text-base">
                     The team is kick ass. If you use GPT while writing code, you
                     should try Greptile. It's much more tailored to that use
                     case than regular GPT. I've used the product to write tests
@@ -54,7 +54,7 @@ const Testimonial = () => {
                       className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-neutral-900"
                     />
                     <div>
-                      <p className="text-lg font-semibold">Jack Chapman</p>
+                      <p className="text-lg font-bold">Jack Chapman</p>
                       <p className="text-sm dark:text-gray-400">
                         Cardinal Gray, ex-Citadel
                       </p>
@@ -64,7 +64,7 @@ const Testimonial = () => {
               </div>
               <div className="grid content-center gap-4">
                 <div className="p-6 rounded shadow-md bg-neutral-900">
-                  <p>
+                  <p className="text-sm lg:text-base">
                     Greptile is 100x better than ChatGPT and 10x better than
                     Cursor at answering questions about the entire codebase. I
                     have no idea how they do it.
@@ -76,7 +76,7 @@ const Testimonial = () => {
                       className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-neutral-900"
                     />
                     <div>
-                      <p className="text-lg font-semibold">Rahul Behal</p>
+                      <p className="text-lg font-bold">Rahul Behal</p>
                       <p className="text-sm dark:text-gray-400">
                         CTO, AgentHub, ex-Amazon
                       </p>
@@ -84,7 +84,7 @@ const Testimonial = () => {
                   </div>
                 </div>
                 <div className="p-6 rounded shadow-md bg-neutral-900">
-                  <p>
+                  <p className="text-sm lg:text-base">
                     I am extremely impressed and honestly quite surprised. I
                     have GPT4, the new Gemini Advanced, and Greptile in 3
                     different tabs (I'm also using Copilot both in Bing and
@@ -103,7 +103,7 @@ const Testimonial = () => {
                       className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-neutral-900"
                     />
                     <div>
-                      <p className="text-lg font-semibold">Paul Suarez</p>
+                      <p className="text-lg font-bold">Paul Suarez</p>
                       <p className="text-sm dark:text-gray-400">
                         Senior Software Engineer, Liberty Mutual
                       </p>
